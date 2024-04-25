@@ -38,6 +38,7 @@ Navigating the current page:
     G       scroll to bottom of the page
     d       scroll down half a page
     u       scroll up half a page
+    s       select the next scrollable container 
     f       open a link in the current tab
     F       open a link in a new tab
     r       reload

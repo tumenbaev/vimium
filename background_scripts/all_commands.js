@@ -96,6 +96,12 @@ const allCommands = [
   },
 
   {
+    name: "nextScrollable",
+    desc: "Select the next scrollable container",
+    group: "navigation",
+  },
+
+  {
     name: "reload",
     desc: "Reload the page",
     group: "navigation",

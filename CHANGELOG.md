@@ -122,8 +122,7 @@
   ([#3614](https://github.com/philc/vimium/issues/3614))
 - Add a count option to closeTabsOnLeft and closeTabsOnRight commands, to allow binding a key to
   "close just 1 tab on the left/right" rather than closing all tabs, as is the default. E.g.
-  `map cl
-  closeTabsOnLeft count=1`. ([#4296](https://github.com/philc/vimium/pull/4296))
+  `map cl closeTabsOnLeft count=1`. ([#4296](https://github.com/philc/vimium/pull/4296))
 - Add search completions for Brave Search. ([#3851](https://github.com/philc/vimium/pull/3851))
 - Make regular expressions in find mode work again; other find mode improvements.
   ([#4261](https://github.com/philc/vimium/issues/4261))

@@ -417,6 +417,7 @@ const defaultKeyMappings = {
   "<c-y>": "scrollUp",
   "d": "scrollPageDown",
   "u": "scrollPageUp",
+  "s": "nextScrollable",
   "r": "reload",
   "R": "reload hard",
   "yy": "copyCurrentUrl",
