@@ -297,6 +297,7 @@ const Commands = {
       "scrollToLeft",
       "scrollToRight",
       "reload",
+      "hardReload",
       "copyCurrentUrl",
       "openCopiedUrlInCurrentTab",
       "openCopiedUrlInNewTab",
@@ -382,6 +383,7 @@ const Commands = {
     "enterVisualLineMode",
     "toggleViewSource",
     "passNextKey",
+    "hardReload",
   ],
 };
 
@@ -401,6 +403,7 @@ const defaultKeyMappings = {
   "u": "scrollPageUp",
   "s": "nextScrollable",
   "r": "reload",
+  "R": "hardReload",
   "yy": "copyCurrentUrl",
   "p": "openCopiedUrlInCurrentTab",
   "P": "openCopiedUrlInNewTab",
@@ -488,6 +491,7 @@ const commandDescriptions = {
   nextScrollable: ["Select the next scrollable container"],
 
   reload: ["Reload the page", { background: true }],
+  hardReload: ["Hard reload the page", { background: true }],
   toggleViewSource: ["View page source", { noRepeat: true }],
 
   copyCurrentUrl: ["Copy the current URL to the clipboard", { noRepeat: true }],
